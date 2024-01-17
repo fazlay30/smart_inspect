@@ -1,0 +1,38 @@
+/* Services Page Styles */
+.services-container {
+    background-image: url('../images/Serviceback.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 20px;
+  }
+  
+  .services-title {
+    font-size: 36px;
+    color: #68c5ed;
+  }
+  
+  .services-list {
+    list-style: none;
+    padding: 5;
+  }
+  
+  .services-list li {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #fff;
+  }
+
+.services-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh; /* Minimum height to push the footer down */
+}
+
+.services-container footer {
+  margin-top: 100px;
+}
+  
+  

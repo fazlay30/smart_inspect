@@ -1,0 +1,58 @@
+/* Footer Styles */
+footer {
+    padding: 15px 0;
+    color: #ecf0f1;
+    background-color: #1a252f; /* Dark gray background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .footer-bottom ul {
+  display: flex; /* Display list items in a row */
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.footer-bottom li {
+  margin-right: 10px;
+}
+  
+  .contact-us {
+    text-align: center;
+  }
+  
+  .contact-us h4 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+  }
+  
+  .contact-us ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex; /* Make the list horizontal */
+  }
+  
+  .contact-us li {
+    margin: 0 10px;
+  }
+  
+  footer a {
+    color: #ecf0f1;
+    margin-right: 10px;
+    transition: color 0.3s;
+  }
+  
+  footer a:hover {
+    color: #bdc3c7; /* Slightly lighter color on hover */
+  }
+  

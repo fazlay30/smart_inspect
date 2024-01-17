@@ -1,0 +1,37 @@
+/* Navbar Styles */
+.header {
+    display: flex;
+    justify-content: space-between; /* Adjusted for horizontal alignment */
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 3%;
+    margin-top: 0%;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  nav a:hover {
+    background-color: #34495e; /* Slightly darker blue on hover */
+  }

@@ -1,0 +1,88 @@
+/* UploadPage.css */
+
+.upload-container {
+    display: flex;
+    flex-direction: column;  /* Stack children vertically */
+    justify-content: space-between;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding-top: 20px;
+    margin: 0;
+
+    background-image: url('../images/Serviceback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .upload-form {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    align-self: center;
+    margin-top: 130px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .file-input {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    display: none;
+  }
+  
+  /* Style for the "Choose File" button */
+  .file-input label {
+    display: block;
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .file-input label:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the "Submit" button */
+  button {
+    padding: 15px 30px;
+    background-color: #4caf50; /* Green color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green color on hover */
+  }
+
+  .upload-container footer {
+    margin-top: 200px;
+  }
